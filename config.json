@@ -1,0 +1,21 @@
+{
+  "database": {
+    "dbname": "demo",
+    "host": "0.0.0.0",
+    "port": 5432,
+    "username": "demo",
+    "password": "demo"
+  },
+  "redis": {
+    "host": "0.0.0.0",
+    "port": "6379"
+  },
+  "clients": {
+    "demo": {
+      "appid": "wx14150c4bc9496b95",
+      "secret": "b877a60c2bc7f5deb438df3266147a79",
+      "token": "demotoken",
+      "wx_redirect_uri": "http://nasawz.com/ucenterauth/oauth_response"
+    }
+  }
+}
